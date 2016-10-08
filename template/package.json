@@ -1,8 +1,4 @@
 {
-  "name": "{{ name }}",
-  "version": "1.0.0",
-  "description": "{{ description }}",
-  "author": "{{ author }}",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -13,9 +9,17 @@
     "lint": "eslint --ext .js,.vue src{{#unit}} test/unit/specs{{/unit}}{{#e2e}} test/e2e/specs{{/e2e}}"{{/lint}}
   },
   "dependencies": {
-    "vue": "^2.0.1"
+    "vue": "^2.0.1",
+    "vue-router": "^2.0.0",
+    "vuex": "^2.0.0",
+    "vuex-router-sync": "^3.0.0"
   },
   "devDependencies": {
+    "sass-loader": "^4.0.2",
+    "node-sass": "^3.10.1",
+    "babel-plugin-syntax-jsx": "^6.13.0",
+    "babel-helper-vue-jsx-merge-props": "^2.0.1",
+    "babel-plugin-transform-vue-jsx": "^3.1.0",
     "autoprefixer": "^6.4.0",
     "babel-core": "^6.0.0",
     {{#lint}}

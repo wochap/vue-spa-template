@@ -1,8 +1,16 @@
-# vue-webpack-boilerplate
+# vue-spa-template
 
 > A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
 
 > This template is Vue 2.0 compatible. For Vue 1.x use this command: `vue init webpack#1.0 my-project`
+
+## Features
+
+* [vue](https://github.com/vuejs/vue)
+* [vue-router](https://github.com/vuejs/vue-router)
+* [vuex](https://github.com/vuejs/vuex)
+* [SASS](http://vue-loader.vuejs.org/en/configurations/pre-processors.html) config ready
+* [JSX](http://vuejs.org/guide/render-function#JSX) config ready
 
 ## Documentation
 
@@ -15,7 +23,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init webpack my-project
+$ vue init wochap/vue-spa-template my-project
 $ cd my-project
 $ npm install
 $ npm run dev
@@ -46,11 +54,3 @@ $ npm run dev
   - Works with one command out of the box:
     - Selenium and chromedriver dependencies automatically handled.
     - Automatically spawns the Selenium server.
-
-### Fork It And Make Your Own
-
-You can fork this repo to create your own boilerplate, and use it with `vue-cli`:
-
-``` bash
-vue init username/repo my-project
-```

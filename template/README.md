@@ -2,7 +2,7 @@
 
 > {{ description }}
 
-## Build Setup
+## Development
 
 ``` bash
 # install dependencies

@@ -20,10 +20,6 @@ module.exports = {
       "message": "Project description",
       "default": "A Vue.js project"
     },
-    "author": {
-      "type": "string",
-      "message": "Author"
-    },
     "build": {
       "type": "list",
       "message": "Vue comes in two build versions, which do you want to use?",
